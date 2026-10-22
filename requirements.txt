@@ -1,0 +1,7 @@
+# Requires Python 3.10 - 3.13 (crewai does not support Python 3.14 yet)
+crewai[google-genai]==1.14.7
+tavily-python==0.5.4
+python-dotenv==1.2.3
+google-api-core==2.28.1
+# Pinned to 2.x: the code uses Langfuse.trace(), which was removed in langfuse 3+
+langfuse==2.60.4
